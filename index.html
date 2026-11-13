@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1110"><meta name="description" content="Shreeshanth S — AI/ML engineering student, Python developer and technical event coordinator.">
+<title>Shreeshanth S | Dark Portfolio — Engineer, Builder, Coordinator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f0e8;--ink:#19251f;--muted:#657169;--blue:#3458dc;--lime:#c6ed65;--orange:#ee7650;--line:#d8d5cb;--card:#fffdf7}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:"DM Sans",sans-serif;line-height:1.55}a{color:inherit;text-decoration:none}.wrap{width:min(1140px,calc(100% - 48px));margin:auto}
+header{height:76px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between}.brand{font:700 1.25rem "Space Grotesk";letter-spacing:-.08em}.brand span{color:var(--blue)}nav{display:flex;gap:25px;font:500 .68rem "DM Mono";text-transform:uppercase}nav a{color:var(--muted)}nav a:hover{color:var(--blue)}
+.hero{padding:78px 0 90px;display:grid;grid-template-columns:1.12fr .88fr;gap:55px;align-items:center}.eyebrow{font:500 .68rem "DM Mono";text-transform:uppercase;letter-spacing:.1em;color:var(--blue)}.eyebrow:before{content:"";display:inline-block;width:22px;height:2px;background:var(--orange);vertical-align:middle;margin:0 10px 3px 0}
+h1{font:700 clamp(4rem,8vw,7.4rem)/.88 "Space Grotesk";letter-spacing:-.095em;margin:22px 0}h1 .stroke{color:transparent;-webkit-text-stroke:1.5px var(--ink)}h1 .accent{color:var(--blue)}.intro{max-width:570px;font-size:1.05rem;color:var(--muted)}.intro strong{color:var(--ink)}.actions{display:flex;gap:22px;align-items:center;margin-top:28px;flex-wrap:wrap}.btn{background:var(--blue);color:white;padding:14px 18px;box-shadow:5px 5px 0 var(--ink);font-weight:700;font-size:.8rem}.textlink{font:500 .7rem "DM Mono";text-transform:uppercase;border-bottom:1px solid;padding-bottom:4px}
+.photo{position:relative;max-width:390px;justify-self:end;background:#dfe3d5;padding:13px 13px 55px;transform:rotate(2deg);box-shadow:9px 10px 0 var(--blue)}.photo img{width:100%;height:465px;object-fit:cover;object-position:center 34%;display:block}.photocap{position:absolute;bottom:17px;left:20px;font:.64rem "DM Mono";text-transform:uppercase}.sticker{position:absolute;right:-22px;top:25px;background:var(--lime);padding:13px 11px;font:.62rem "DM Mono";transform:rotate(8deg);z-index:2}
+.strip{background:var(--ink);color:white;padding:16px 0;font:.68rem "DM Mono";text-transform:uppercase;letter-spacing:.08em}.strip .wrap{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.strip b{color:var(--lime);font-weight:500}
+section{padding:88px 0;border-bottom:1px solid var(--line)}.sectionhead{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:38px}.sectionhead h2{font:700 clamp(2.8rem,5vw,4.8rem)/.93 "Space Grotesk";letter-spacing:-.08em;margin:12px 0 0}.note{max-width:330px;color:var(--muted);font-size:.86rem}
+.about{display:grid;grid-template-columns:1.15fr .85fr;gap:65px}.about p{font-size:1.2rem;line-height:1.7;margin:0}.about em{font-style:normal;color:var(--blue);font-weight:700}.aside{border-left:2px solid var(--orange);padding-left:20px;color:var(--muted);font-size:.88rem}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:42px}.stat{border-top:1px solid var(--ink);padding-top:12px}.stat b{font:700 2.1rem "Space Grotesk";display:block;letter-spacing:-.07em}.stat span{font:.62rem "DM Mono";text-transform:uppercase;color:var(--muted)}
+.skills{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.skill{background:var(--card);border:1px solid var(--line);padding:20px;min-height:165px}.skill small{font:.65rem "DM Mono";color:var(--orange)}.skill h3{font:600 1.1rem "Space Grotesk";margin:22px 0 8px}.skill p{font-size:.78rem;color:var(--muted);margin:0}.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:13px}.chip{border:1px solid var(--line);padding:4px 7px;font:.6rem "DM Mono";color:var(--muted)}
+.projects{border-top:1px solid var(--ink)}.project{display:grid;grid-template-columns:55px 1fr 1.1fr 100px;gap:20px;align-items:center;padding:23px 5px;border-bottom:1px solid var(--line)}.project:hover{background:#e9e6dc;padding-left:14px}.project .n{font:.7rem "DM Mono";color:var(--orange)}.project h3{font:600 1.25rem "Space Grotesk";margin:0;letter-spacing:-.04em}.project p{font-size:.8rem;color:var(--muted);margin:0}.project .kind{text-align:right;font:.6rem "DM Mono";color:var(--blue);text-transform:uppercase}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:38px}.timeline{border-left:2px solid var(--blue);padding-left:23px;margin:0 0 25px;position:relative}.timeline:before{content:"";position:absolute;left:-6px;top:5px;width:10px;height:10px;background:var(--orange);border-radius:50%}.date{font:.65rem "DM Mono";color:var(--blue);text-transform:uppercase}.timeline h3{font:600 1.15rem "Space Grotesk";margin:5px 0}.timeline p{font-size:.8rem;color:var(--muted);margin:4px 0}
+.eventgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.event{background:var(--ink);color:white;padding:20px;min-height:175px;position:relative}.event .no{font:.62rem "DM Mono";color:var(--lime)}.event h3{font:600 1.15rem "Space Grotesk";margin:25px 0 6px}.event p{font-size:.76rem;color:#c1c8c1;margin:0}.event .role{position:absolute;right:15px;top:17px;color:var(--lime);font:.58rem "DM Mono";text-transform:uppercase}
+.certlist{border-top:1px solid var(--ink)}.cert{display:grid;grid-template-columns:40px 1fr 125px;gap:16px;padding:17px 3px;border-bottom:1px solid var(--line);align-items:start}.cert .symbol{color:var(--orange);font: .8rem "DM Mono"}.cert h3{font:600 .98rem "Space Grotesk";margin:0 0 4px}.cert p{font-size:.76rem;color:var(--muted);margin:0}.cert time{text-align:right;font:.62rem "DM Mono";color:var(--blue)}
+.contact{background:var(--blue);color:white;padding:75px 0}.contact .eyebrow{color:#dce3ff}.contact h2{font:700 clamp(2.7rem,5vw,5rem)/.95 "Space Grotesk";letter-spacing:-.08em;max-width:800px;margin:15px 0}.contact p{color:#e1e6ff;max-width:500px}.contactlinks{display:flex;gap:22px;flex-wrap:wrap;margin-top:25px;font:.67rem "DM Mono";text-transform:uppercase}.contactlinks a{border-bottom:1px solid #ffffff80;padding-bottom:3px}
+footer{display:flex;justify-content:space-between;padding:22px 0;color:var(--muted);font:.62rem "DM Mono";text-transform:uppercase}
+@media(max-width:800px){.hero{grid-template-columns:1fr}.photo{justify-self:start;margin:10px 0 0 18px;max-width:350px}.about{grid-template-columns:1fr;gap:25px}.skills{grid-template-columns:repeat(2,1fr)}.project{grid-template-columns:40px 1fr 1fr}.project .kind{grid-column:2/-1;text-align:left}.eventgrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.wrap{width:calc(100% - 34px)}nav{display:none}.hero{padding:55px 0}.hero h1{font-size:clamp(3.7rem,16vw,5rem)}.photo{max-width:300px}.photo img{height:370px}.strip .wrap{justify-content:flex-start;gap:20px}section{padding:68px 0}.sectionhead{display:block}.note{margin-top:16px}.about p{font-size:1.05rem}.stats{gap:8px}.stat b{font-size:1.7rem}.stat span{font-size:.53rem}.skills{gap:8px}.skill{padding:14px}.skill h3{font-size:1rem}.project{grid-template-columns:30px 1fr;gap:9px}.project p,.project .kind{grid-column:2}.split{grid-template-columns:1fr;gap:20px}.eventgrid{grid-template-columns:1fr 1fr;gap:8px}.event{padding:14px;min-height:165px}.event h3{font-size:1rem}.cert{grid-template-columns:25px 1fr}.cert time{grid-column:2;text-align:left}.contact{padding:65px 0}footer{display:block;line-height:2}footer span{display:block}}
+
+/* DARK EDITION — Shreeshanth portfolio */
+:root{
+ --bg:#0b1110;
+ --ink:#edf3eb;
+ --muted:#a2afa6;
+ --blue:#a9baff;
+ --lime:#c6ed65;
+ --orange:#ff9475;
+ --line:#293630;
+ --card:#121c18;
+ color-scheme:dark;
+}
+body{background:var(--bg);color:var(--ink)}
+header{border-bottom-color:var(--line)}
+nav a{color:var(--muted)}
+h1 .stroke{-webkit-text-stroke-color:#dce7dc}
+.btn{background:var(--lime);color:#10170f;box-shadow:5px 5px 0 #344238}
+.textlink{color:var(--ink);border-bottom-color:#718078}
+.photo{background:#dfe3d5;box-shadow:9px 10px 0 var(--blue)}
+.photocap{color:#19251f}
+.strip{background:#131d19;color:#edf3eb;border-top:1px solid #293630;border-bottom:1px solid #293630}
+section{border-bottom-color:var(--line)}
+.stat{border-top-color:#728078}
+.skill{background:var(--card);border-color:var(--line)}
+.chip{border-color:#3a4941;color:#b9c5bc}
+.project{border-bottom-color:var(--line)}
+.projects{border-top-color:#718078}
+.project:hover{background:#17231e}
+.event{background:#17231e;color:#edf3eb;border:1px solid #2a3931}
+.event p{color:#b7c3ba}
+.certlist{border-top-color:#718078}
+.contact{background:#1b285e;color:#f5f6ff}
+.contact .eyebrow{color:#c6d0ff}
+.contact p{color:#d7defe}
+.contactlinks a{border-bottom-color:#ffffff80}
+footer{color:#9ba89f}
+@media (prefers-reduced-motion:no-preference){
+ .project{transition:background .2s ease,padding .2s ease}
+ .btn{transition:transform .18s ease,box-shadow .18s ease}
+ .btn:hover{transform:translate(3px,3px);box-shadow:2px 2px 0 #344238}
+}
+
+</style></head><body>
+<div class="wrap"><header><a class="brand" href="#top">SHREE<span>↗</span></a><nav><a href="#about">Profile</a><a href="#work">Projects</a><a href="#leadership">Leadership</a><a href="#credentials">Credentials</a><a href="#contact">Contact</a></nav></header>
+<main id="top"><div class="hero"><div><div class="eyebrow">AI / ML engineering · Python · event coordination</div><h1>Build with<br><span class="stroke">purpose.</span><br>Lead with <span class="accent">curiosity.</span></h1><p class="intro">I'm <strong>Shreeshanth S</strong> — an Artificial Intelligence & Machine Learning engineering student who enjoys turning data, algorithms and ideas into useful applications. I build in Python, explore AI systems and help bring student tech events to life.</p><div class="actions"><a class="btn" href="#work">Explore my work ↘</a><a class="btn" href="Shreeshanth_S_Updated_Resume.pdf" download>Download resume ↓</a><a class="textlink" href="mailto:shrishanthshree@gmail.com">Let's connect ↗</a></div></div>
+<div class="photo"><div class="sticker">AIML<br>GRADUATING<br>2027</div><img src="assets/profile.jpg" alt="Shreeshanth portrait"><div class="photocap">Shreeshanth S. / Builder & coordinator</div></div></div></main></div>
+<div class="strip"><div class="wrap"><span><b>01</b> Machine learning</span><span><b>02</b> NLP & LLMs</span><span><b>03</b> Python development</span><span><b>04</b> Student leadership</span></div></div>
+<section id="about"><div class="wrap"><div class="sectionhead"><div><div class="eyebrow">01 — A little about me</div><h2>Technical mind.<br>People-first energy.</h2></div><p class="note">I enjoy the work behind the scenes as much as the final result.</p></div><div class="about"><p>I'm pursuing a <em>B.E. in Artificial Intelligence & Machine Learning</em> at Yenepoya Institute of Technology. Through my internship, academic projects and event responsibilities, I've learned to approach problems with curiosity, structure and teamwork.</p><div class="aside">Beyond development, I've taken coordination responsibilities for student technology events, supported event execution and participated in technical forums. I value clear communication, reliable teamwork and learning by doing.</div></div><div class="stats"><div class="stat"><b>15%</b><span>Reported model accuracy improvement</span></div><div class="stat"><b>3</b><span>Events coordinated</span></div><div class="stat"><b>IEEE</b><span>Research paper presenter</span></div></div></div></section>
+<section id="skills"><div class="wrap"><div class="sectionhead"><div><div class="eyebrow">02 — Technical toolkit</div><h2>Tools I work with.</h2></div><p class="note">A practical foundation developed through internship work and projects.</p></div><div class="skills">
+<div class="skill"><small>01 / PROGRAMMING</small><h3>Code & data</h3><p>Working with programming and relational data.</p><div class="chips"><span class="chip">Python</span><span class="chip">SQL</span></div></div>
+<div class="skill"><small>02 / FRAMEWORKS</small><h3>ML ecosystem</h3><p>Training, evaluating and improving ML workflows.</p><div class="chips"><span class="chip">TensorFlow</span><span class="chip">PyTorch</span><span class="chip">Scikit-learn</span><span class="chip">Keras</span></div></div>
+<div class="skill"><small>03 / SPECIALITIES</small><h3>Applied AI</h3><p>Text, image and predictive modelling workflows.</p><div class="chips"><span class="chip">NLP</span><span class="chip">LLMs</span><span class="chip">Computer vision</span><span class="chip">OpenCV</span></div></div>
+<div class="skill"><small>04 / WORKFLOW</small><h3>Build & collaborate</h3><p>Version control, development and automation.</p><div class="chips"><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">CI/CD</span><span class="chip">VS Code</span></div></div>
+</div></div></section>
+<section id="work"><div class="wrap"><div class="sectionhead"><div><div class="eyebrow">03 — Selected projects</div><h2>Ideas made tangible.</h2></div><p class="note">A selection of internship and academic projects. Individual repository links can be added once the project URLs are confirmed.</p></div><div class="projects">
+<div class="project"><span class="n">01 /</span><h3>AI Resume Optimizer</h3><p>An AI-supported career-readiness platform using NLP and LLM feature pipelines to process resume text and provide actionable feedback.</p><span class="kind">Internship · 2026</span></div>
+<div class="project"><span class="n">02 /</span><h3>SMS Spam Detection</h3><p>A Python and Scikit-learn text-classification application to identify and filter spam SMS messages.</p><span class="kind">Internship · 2026</span></div>
+<div class="project"><span class="n">03 /</span><h3>Eye Life</h3><p>An eye-banking management system designed to support donor–recipient matching; its architecture was presented at a National IEEE conference.</p><span class="kind">Academic · 2025–26</span></div>
+<div class="project"><span class="n">04 /</span><h3>AgriMind</h3><p>An AI-driven precision-agriculture decision-support project exploring soil analysis, crop recommendations and plant-disease assistance.</p><span class="kind">Final year project</span></div>
+</div></div></section>
+<section id="leadership"><div class="wrap"><div class="sectionhead"><div><div class="eyebrow">04 — Beyond the code</div><h2>Coordination is<br>also engineering.</h2></div><p class="note">Event coordination roles and technical-event participation at Yenepoya Institute of Technology.</p></div><div class="eventgrid">
+<article class="event"><span class="no">EVENT / 01</span><span class="role">Coordinator</span><h3>Matrix Fusion 4.0</h3><p>24-hour National Level Hackathon · Yen Artificia, YIT · 2026</p></article>
+<article class="event"><span class="no">EVENT / 02</span><span class="role">Coordinator</span><h3>PINNACLE</h3><p>3-day International Level Tech Symposium · Project Expo & Tech Fest · 2026</p></article>
+<article class="event"><span class="no">EVENT / 03</span><span class="role">Coordinator</span><h3>FusionVerse 1.0</h3><p>Institute-level AI & ML hackathon · YenFinity · 14–15 May 2026</p></article>
+<article class="event"><span class="no">EVENT / 04</span><span class="role">Participant</span><h3>Quoria AI Summit</h3><p>Part of PINNACLE · 29 October 2026</p></article>
+</div><div class="split" style="margin-top:42px"><div><div class="eyebrow">Experience</div><div class="timeline" style="margin-top:18px"><span class="date">OCT 2025 — MAY 2026</span><h3>AI & ML Intern · InLighN X Global Pvt. Ltd.</h3><p>Built NLP feature-extraction and text-classification workflows, worked with LLM-powered resume processing, integrated AI APIs into web applications and contributed to predictive-model optimization. Resume-reported model accuracy improvement: 15%.</p></div></div><div><div class="eyebrow">Education</div><div class="timeline" style="margin-top:18px"><span class="date">EXPECTED MARCH 2027</span><h3>B.E. Artificial Intelligence & Machine Learning</h3><p>Yenepoya Institute of Technology (VTU), Moodbidri, Karnataka · CGPA 7.0 / 10.0.</p></div></div></div></div></section>
+<section id="credentials"><div class="wrap"><div class="sectionhead"><div><div class="eyebrow">05 — Certifications & recognition</div><h2>Proof of learning.</h2></div><p class="note">Courses, technical presentations and competitive experiences.</p></div><div class="certlist">
+<div class="cert"><span class="symbol">C/01</span><div><h3>Computer Network & Internet Security</h3><p>Course Completion Certificate · Infosys Springboard</p></div><time>25 NOV 2025</time></div>
+<div class="cert"><span class="symbol">C/02</span><div><h3>GEN-AI Camp</h3><p>AlgoUniversity · Generative AI, multimodal AI systems and NLP; under mentorship of a Microsoft engineer.</p></div><time>2026*</time></div>
+<div class="cert"><span class="symbol">C/03</span><div><h3>Professional Certification in AI & Machine Learning</h3><p>InLighN X Global Pvt. Ltd.</p></div><time>2026</time></div>
+<div class="cert"><span class="symbol">C/04</span><div><h3>Technical Paper Presentation — Eye Life</h3><p>Participation certificate · Yenepoya Institute of Technology with IEEE · Research paper presenter.</p></div><time>09 MAR 2026</time></div>
+<div class="cert"><span class="symbol">A/05</span><div><h3>HACKABHIGNA — National-Level Hackathon</h3><p>Finalist · 24-hour national-level hackathon, AIT Chikmagalur.</p></div><time>2026</time></div>
+</div></div></section>
+<div class="contact" id="contact"><div class="wrap"><div class="eyebrow">06 — Let's connect</div><h2>Good ideas get better when people build together.</h2><p>I'm interested in AI/ML engineering, Python development and opportunities to contribute to practical software.</p><div class="contactlinks"><a href="mailto:shrishanthshree@gmail.com">Email</a><a href="https://www.linkedin.com/in/shreeshnth-s-/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/shreeshanth-aiml" target="_blank" rel="noreferrer">GitHub</a><a href="tel:+916362964919">+91 63629 64919</a></div></div></div>
+<div class="wrap"><footer><span>© 2026 Shreeshanth S</span><span>Built with curiosity · Karnataka, India</span></footer></div>
+</body></html>
